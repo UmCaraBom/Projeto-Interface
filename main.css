@@ -1,0 +1,99 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden
+}
+.menu-principal{
+    width: 100%;
+    height: 100px;
+    background-color: #bc0000;
+
+}
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+ul{
+    padding: 0px!important;
+}
+
+.logo{
+    float: left;
+    width: 70%;
+    padding: 0px;
+}
+.redes-sociais ul li{
+    margin-left: 15px;
+    display: inline-block;
+    list-style: none;
+    float: left;
+}
+.redes-sociais{
+    width: 20%;
+    float: right;
+    padding: 10px;
+}
+.header-2{
+    width: 980px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 10px;
+}
+.menu-url{
+    padding: 15px;
+    height: 50px;
+    border-bottom: 5px solid #f3f3f3;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 40px;
+    color: #bc0000;
+    height: 40px;
+}
+.menu ul li a{
+    color: #bc0000;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Calibri', sans-serif;
+    text-transform: uppercase;
+}
+.menu{
+    width: 80%;
+    float: left;
+}
+.menu ul li:hover{
+    color: #bc0000;
+    border-bottom: 3px solid #bc0000;
+}
+.busca{
+    width: 20%;
+    float: left;
+}
+.busca input{
+    background-image: url(../imagem/busca.png);
+    background-repeat: no-repeat;
+    width: 160px;
+    padding: 5px;
+    height: 30px;
+    margin-top: 5px;
+    background-position: right;
+    border: solid 1px #bc0000;
+    text-transform: initial;
+    font-style: italic;
+    text-align:justify;
+}
+.col-100{
+    width: 100%;
+    float: left;
+}
+.slider-promo{
+    width: 900px;
+    height: 300px;
+    margin: 0 auto;
+}
+.slick-slide{
+    margin: 5px;
+}
